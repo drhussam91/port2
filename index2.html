@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no ">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+  <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/styles2.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+  <title>Saher Design</title>
+</head>
+<!-- Main navigation -->
+<header>
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar  shadow">
+    <div class="container">
+      <a class="navbar-brand" href="#">Saher</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto smooth-scroll">
+          <li class="nav-item">
+            <a class="nav-link" onclick="$('#navbar').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});" >Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link"  onclick="$('#what').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});" data-offset="90">What I do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="$('#projects').animatescroll({scrollSpeed:2000,easing:'easeInOutSine'});" data-offset="90">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="$('#opinions').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});" data-offset="30">Opinions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team" data-offset="90">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" data-offset="90">Contact</a>
+          </li>
+        </ul>
+        <!-- Social Icon  -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link">
+              <i class="fab fa-facebook light-green-text-2"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <i class="fab fa-twitter light-green-text-2"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <i class="fab fa-instagram light-green-text-2"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+  <!-- Full Page Intro -->
+  <div class="header-container">
+    <div class="video-vontainer">
+    <video class="video-intros" poster="img2/wall.png" playsinline autoplay="autoplay" muted preload="true" loop="loop">
+      <source src="video/bokeh2.mp4" type="video/mp4">
+    </video>
+    </div>
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
+      <!-- Content -->
+      <div class="container px-md-3 px-sm-0">
+        <div class="col-lg-2 col-sm-4 col-6 mx-auto pt-5">
+          <img class="img-fluid rounded-circle shadow img-thumbnail" src="/img/saher.jpg" alt="Me">
+        </div>
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+          <!--Grid column-->
+          <div class="col-md-12 mb-4 white-text text-center fadeIn  mx-aute">
+            <h3 class="display-3 font-weight-bold white-text mb-0 pt-md-5 ">Saher Design</h3>
+            <hr class="hr-light my-4 w-75">
+            <h4 class="subtext-header mt-2 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit deleniti consequuntur nihil.</h4>
+            <a  onclick="$("#projectsScrol").animatescroll({scrollSpeed:2000,easing:"easeInOutBack"});" class=" white-text btn btn-rounded btn-outline-white">
+              <i class="fa fa-home white-text"></i> Visit me
+            </a>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Content -->
+    </div>
+    <!-- Mask & flexbox options-->
+
+  </div>
+  <!-- Full Page Intro -->
+
+
+<!-- ---------------------- main -------------------->
+  <main>
+    <section id="what" class="text-center py-5" style="background-color: #eee;">
+
+   <!-- Container -->
+   <div class="container">
+
+       <!-- Section heading -->
+       <h2 class="h1-responsive font-weight-bold mb-5">What I do</h2>
+       <!-- Section description -->
+       <p class="text-muted w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in
+           voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+           cupidatat non proident, sunt in culpa qui officia deserunt mollit est laborum.</p>
+
+       <!-- Grid row -->
+       <div class="row text-center">
+
+           <!-- Grid column -->
+           <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+               <!--Featured image-->
+               <div class="rounded shadow">
+                   <img src="/img/logo.jpg" class="img-fluid" alt="Sample project image">
+               </div>
+               <!--Excerpt-->
+               <div class="card-body pb-0">
+                   <h4 class="font-weight-bold my-3">Logo Design</h4>
+                   <p class="text-muted">Temporibus autem quibusdam et aut officiis debitis aut rerum
+                       necessitatibus saepe eveniet ut et voluptates repudiandae.
+                   </p>
+                   <a class="btn btn-orange white-text btn-sm"><i class="fa fa-clone left"></i> View project</a>
+               </div>
+           </div>
+           <!-- Grid column -->
+
+           <!-- Grid column -->
+           <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+               <!--Featured image-->
+               <div class="rounded shadow">
+                   <img src="/img/card.jpg" class="img-fluid" alt="Sample project image">
+
+               </div>
+               <!--Excerpt-->
+               <div class="card-body pb-0">
+                   <h4 class="font-weight-bold my-3">Bussness Cards</h4>
+                   <p class="text-muted">Temporibus autem quibusdam et aut officiis debitis aut rerum
+                       necessitatibus saepe eveniet ut et voluptates repudiandae.
+                   </p>
+                   <a class="btn btn-orange white-text btn-sm"><i class="fa fa-clone left"></i> View project</a>
+               </div>
+           </div>
+           <!-- Grid column -->
+
+           <!-- Grid column -->
+           <div class="col-lg-4 col-md-6">
+               <!--Featured image-->
+               <div class="rounded shadow">
+                   <img src="/img/add.jpg" class="img-fluid" alt="Sample project image">
+               </div>
+               <!--Excerpt-->
+               <div class="card-body pb-0">
+                   <h4 class="font-weight-bold my-3">
+                   Puplic addvertisments</h4>
+                   <p class="text-muted">Temporibus autem quibusdam et aut officiis debitis aut rerum
+                       necessitatibus saepe eveniet ut et voluptates repudiandae.
+                   </p>
+                   <a class="btn btn-orange white-text btn-sm"><i class="fa fa-clone left"></i> View project</a>
+               </div>
+           </div>
+           <!-- Grid column -->
+
+       </div>
+       <!-- Grid row -->
+
+   </div>
+   <!-- Container -->
+
+</section>
+<!--Section: projects-->
+
+<!--Section: gallery-->
+<section id="projects" class="text-center py-5">
+
+  <!-- Container -->
+  <div class="container">
+
+      <!-- Section heading -->
+      <h2 class="h1-responsive font-weight-bold mb-5">My best projects</h2>
+      <!-- Section description -->
+      <p class="grey-text w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit est laborum.</p>
+
+      <div class="row">
+                  <figure class="col-md-4 ">
+                          <img src="/img/2.jpg"
+                              class="img-fluid rounded shadow" />
+                  </figure>
+
+                  <figure class="col-md-4">
+                          <img src="/img/3.jpg"
+                              class="img-fluid rounded shadow" />
+                  </figure>
+
+                  <figure class="col-md-4">
+                          <img src="/img/4.jpg"
+                              class="img-fluid rounded shadow" />
+                  </figure>
+      </div>
+
+      <div class="row">
+                  <figure class="col-md-4">
+                          <img src="/img/7.jpg"
+                              class="img-fluid rounded shadow" />
+                  </figure>
+
+                  <figure class="col-md-4">
+                          <img src="/img/5.png"
+                              class="img-fluid rounded shadow" />
+                  </figure>
+
+                  <figure class="col-md-4 ">
+                          <img src="/img/6.png"
+                              class="img-fluid rounded shadow" />
+                  </figure>
+                  <br>
+                  <br>
+        </div>
+
+
+  </div>
+  <!-- Container -->
+</section>
+
+
+<!--Section: carousel-->
+<div id="opinions" class="container-fluid bg-secondary">
+  <div class=" col-12 col-md-10 mx-auto text-center">
+      <h2 class="pt-5">What did they say?</h2>
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators ">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <div class="col-lg-2 col-sm-4 col-6 mx-auto pt-5 pb-5">
+              <img class="img-fluid rounded-circle shadow " src="/img/t1.jpg" alt="Me">
+            </div>
+            <div class="col-9 mx-auto pb-5 .text-white">
+              <h3>Adam</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item ">
+            <div class="col-lg-2 col-sm-4 col-6 mx-auto pt-5 pb-5">
+              <img class="img-fluid rounded-circle shadow " src="/img/t2.jpg" alt="Me">
+            </div>
+            <div class="col-9 mx-auto pb-5 ">
+              <h3>cats</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item ">
+            <div class="col-lg-2 col-sm-4 col-6 mx-auto pt-5 pb-5">
+              <img class="img-fluid rounded-circle shadow " src="/img/t3.jpg" alt="Me">
+            </div>
+            <div class="col-9 mx-auto pb-5">
+              <h3>cat</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class=" carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+</div>
+      <!--Section: call to action-->
+      <section id="">
+
+
+
+      </section>
+      <!--Section: call to action-->
+
+      <!--Section: articles-->
+      <section id="articles" class="text-center py-5">
+
+          <!-- Container -->
+          <div class="container">
+
+              <!-- Section heading -->
+
+
+          </div>
+          <!-- Container -->
+
+      </section>
+      <!--Section: articles-->
+
+
+
+      <!-- Footer -->
+<footer class="page-footer font-small pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-google-plus"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin"> </i>
+          </a>
+        </li>
+       
+      </ul>
+      <!-- Social buttons -->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="#"> Saher Design </a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+  </main>
+  <!--Main layout-->
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/animatescroll.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    $(window).scroll(function() {
+      if ($(document).scrollTop() > 50) {
+        $("#navbar").addClass("top-nav-collapse");
+      } else {
+        $("#navbar").removeClass("top-nav-collapse");
+      }
+    });
+  });
+  </script>
+
+
+</header>
